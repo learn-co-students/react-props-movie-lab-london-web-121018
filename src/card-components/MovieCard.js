@@ -32,7 +32,7 @@ export default class MovieCard extends Component {
   render() {
     return (
       <div className="movie-card">
-        {/* which component should receive which props? */}
+        {console.log(this.props.movie)}
         <CardFront />
         <CardBack />
       </div>
